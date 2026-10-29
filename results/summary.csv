@@ -1,0 +1,49 @@
+scenario,detector,layer,detection_rate,median_delay_months,pre_onset_false_alarm_rate
+No drift (control),Feature PSI,Inputs,0.0,,
+No drift (control),Feature KS test,Inputs,0.13333333333333333,,
+No drift (control),Domain classifier,Inputs,0.1,,
+No drift (control),Score PSI,Predictions,0.0,,
+No drift (control),Calibration test,Outcomes,0.03333333333333333,,
+No drift (control),AUC drop,Outcomes,0.03333333333333333,,
+No drift (control),Page-Hinkley,Outcomes,0.03333333333333333,,
+No drift (control),ADWIN,Outcomes,0.0,,
+Covariate drift (key features),Feature PSI,Inputs,1.0,0.0,0.0
+Covariate drift (key features),Feature KS test,Inputs,1.0,0.0,0.06666666666666667
+Covariate drift (key features),Domain classifier,Inputs,1.0,0.0,0.0
+Covariate drift (key features),Score PSI,Predictions,1.0,0.0,0.0
+Covariate drift (key features),Calibration test,Outcomes,0.06666666666666667,13.0,0.03333333333333333
+Covariate drift (key features),AUC drop,Outcomes,0.06666666666666667,11.0,0.03333333333333333
+Covariate drift (key features),Page-Hinkley,Outcomes,1.0,6.0,0.0
+Covariate drift (key features),ADWIN,Outcomes,1.0,6.0,0.0
+Covariate drift (minor feature),Feature PSI,Inputs,1.0,0.0,0.0
+Covariate drift (minor feature),Feature KS test,Inputs,1.0,0.0,0.06666666666666667
+Covariate drift (minor feature),Domain classifier,Inputs,1.0,0.0,0.0
+Covariate drift (minor feature),Score PSI,Predictions,0.0,,0.0
+Covariate drift (minor feature),Calibration test,Outcomes,0.0,,0.03333333333333333
+Covariate drift (minor feature),AUC drop,Outcomes,0.0,,0.03333333333333333
+Covariate drift (minor feature),Page-Hinkley,Outcomes,0.0,,0.0
+Covariate drift (minor feature),ADWIN,Outcomes,0.8,10.0,0.0
+Prior drift,Feature PSI,Inputs,0.0,,0.0
+Prior drift,Feature KS test,Inputs,1.0,0.0,0.06666666666666667
+Prior drift,Domain classifier,Inputs,0.8333333333333334,3.0,0.0
+Prior drift,Score PSI,Predictions,0.0,,0.0
+Prior drift,Calibration test,Outcomes,1.0,6.0,0.03333333333333333
+Prior drift,AUC drop,Outcomes,0.0,,0.03333333333333333
+Prior drift,Page-Hinkley,Outcomes,1.0,6.0,0.0
+Prior drift,ADWIN,Outcomes,1.0,6.0,0.0
+Concept drift (sudden),Feature PSI,Inputs,0.0,,0.0
+Concept drift (sudden),Feature KS test,Inputs,0.06666666666666667,13.0,0.06666666666666667
+Concept drift (sudden),Domain classifier,Inputs,0.1,2.0,0.0
+Concept drift (sudden),Score PSI,Predictions,0.0,,0.0
+Concept drift (sudden),Calibration test,Outcomes,0.06666666666666667,9.0,0.03333333333333333
+Concept drift (sudden),AUC drop,Outcomes,1.0,6.0,0.03333333333333333
+Concept drift (sudden),Page-Hinkley,Outcomes,1.0,8.5,0.0
+Concept drift (sudden),ADWIN,Outcomes,0.36666666666666664,13.0,0.0
+Concept drift (incremental),Feature PSI,Inputs,0.0,,0.0
+Concept drift (incremental),Feature KS test,Inputs,0.06666666666666667,13.0,0.06666666666666667
+Concept drift (incremental),Domain classifier,Inputs,0.1,2.0,0.0
+Concept drift (incremental),Score PSI,Predictions,0.0,,0.0
+Concept drift (incremental),Calibration test,Outcomes,0.2,10.5,0.03333333333333333
+Concept drift (incremental),AUC drop,Outcomes,1.0,12.0,0.03333333333333333
+Concept drift (incremental),Page-Hinkley,Outcomes,0.8666666666666667,15.0,0.0
+Concept drift (incremental),ADWIN,Outcomes,0.2,16.5,0.0
