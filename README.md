@@ -127,7 +127,7 @@ python demo_plots.py      # writes figures/demo/{data,label,concept}.gif and bef
 1. Open [colab.research.google.com](https://colab.research.google.com) → **File → Open notebook → GitHub**, paste this
    repository's URL and choose `drift_demo.ipynb`. (Or **File → Upload notebook** and upload `drift_demo.ipynb`.)
 2. In the first code cell, set `REPO_URL` to this repository. If you uploaded the notebook instead, upload
-   `drift-monitoring.zip` in the Files panel and set `USE_ZIP = True`.
+   `model_monitoring.zip` in the Files panel and set `USE_ZIP = True`.
 3. **Runtime → Run all.** Setup takes under a minute; each animation about 15–30 seconds.
 4. Section 6 of the notebook has a scenario dropdown and a month slider for exploring live.
 
